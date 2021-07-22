@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Login Form</title>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+			integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S"
+			crossorigin="anonymous"
+		/>
+		<!-- Original CSS -->
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="main__container">
+			<form action="#" class="form" id="login">
+				<h1 class="form__title">Login</h1>
+				<div class="form__input-group">
+					<input
+						type="text"
+						class="form__input"
+						name="Email_or_Username"
+						id="Email_or_Username"
+						placeholder="Email or Username"
+						autofocus
+						autocomplete="off"
+					/>
+					<div class="form__message--error icon envelope"></div>
+				</div>
+				<div class="form__input-group">
+					<input
+						class="form__input"
+						type="password"
+						name="Password"
+						id="password"
+						placeholder="Password"
+					/>
+					<div class="form__message--error icon lock"></div>
+				</div>
+				<div class="form__activity">
+					<label for="Remember_me">
+						<input
+							type="checkbox"
+							name="Remember_me"
+							id="Remember_me"
+							checked="checked"
+						/>
+						Remember me
+					</label>
+					<p id="forget__password">
+						<a href="#"> Forget Password </a>
+					</p>
+				</div>
+				<button type="submit" class="form__submit">Log In</button>
+				<p class="new__account">
+					<a class="form__link" href="./" id="CreateAccount">
+						Don't have an account? Create one
+					</a>
+				</p>
+				<hr />
+				<div id="account__link">
+					Or Log in with
+					<p class="login__icon">
+						<a href="#" class="google login-icon"></a>
+						<a href="#" class="facebook login-icon"></a>
+						<a href="#" class="linkedin login-icon"></a>
+						<a href="#" class="github login-icon"></a>
+					</p>
+				</div>
+			</form>
+		</div>
+		<footer>Made With ❤ by Sayantan</footer>
+		<ul id="background__slideshow">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<!-- Optional JavaScript -->
+		<script src="script.js"></script>
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://kit.fontawesome.com/c6d3633b46.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
